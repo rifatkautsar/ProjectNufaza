@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="299dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="330dp"
+        android:background="@color/accent_material_light"
+        android:padding="50dp">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="285dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:text="Selamat Datang"
+            android:textSize="30dp" />
+
+        <ImageView
+            android:id="@+id/imglogo"
+            android:layout_width="294dp"
+            android:layout_height="65dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@drawable/logo" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="332dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="@color/windowBackground" >
+
+        <EditText
+            android:id="@+id/txt_username"
+            android:layout_width="309dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/txt_password"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="48dp"
+            android:drawableLeft="@drawable/ic_person_black_24dp"
+            android:ems="10"
+            android:hint="NIK"
+            android:inputType="textPersonName"
+            android:shadowColor="@color/navigationBarColor"
+            android:singleLine="true"
+            android:textColor="@color/navigationBarColor"
+            android:textColorHighlight="@color/navigationBarColor"
+            android:textColorHint="@color/navigationBarColor"
+            android:textColorLink="@color/textColorPrimary" />
+
+        <EditText
+            android:id="@+id/txt_password"
+            android:layout_width="313dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="129dp"
+            android:layout_marginEnd="37dp"
+            android:drawableLeft="@drawable/ic_lock_black_24dp"
+            android:ems="10"
+            android:hint="Password"
+            android:password="true"
+            android:singleLine="true"
+            android:textColor="@color/navigationBarColor"
+            android:textColorHighlight="@color/navigationBarColor"
+            android:textColorHint="@color/navigationBarColor"
+            android:textColorLink="@color/navigationBarColor" />
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="323dp"
+            android:layout_height="60dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginBottom="76dp"
+            android:background="@drawable/buttonstyle"
+            android:text="Masuk"
+            android:textColor="@color/windowBackground"
+            android:textSize="21dp" />
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

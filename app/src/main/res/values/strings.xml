@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Nufaza</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nama_tempat">Nama Tempat</string>
+    <string name="submit">Submit</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string-array name="tempat">
+        <item>Nufaza Bandung</item>
+        <item>Nufaza Jakarta</item>
+        <item>Estubizi</item>
+    </string-array>
+    <string-array name="keterangan">
+        <item>Hadir</item>
+        <item>Izin</item>
+    </string-array>
+    <string-array name="status_hari">
+        <item>WeekDay</item>
+        <item>WeekEnd</item>
+    </string-array>
+    <string name="weekday">WeekDay</string>
+    <string name="weekend">WeekEnd</string>
+    <string name="piket">Piket</string>
+    <string name="tidak">Tidak</string>
+
+</resources>

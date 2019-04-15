@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.rindaman.nufaza.fragment.PiketMalam">
+
+    <RelativeLayout
+        android:layout_width="354dp"
+        android:layout_height="494dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/radioGrouphari"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="-227dp"
+            android:text="Keterangan :"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="-98dp"
+            android:layout_marginTop="139dp"
+            android:layout_toEndOf="@+id/radioGroupketerangan"
+            android:text="Pilih Status Hari :"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/radioGrouphari"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="173dp"
+            android:layout_marginEnd="218dp">
+
+            <RadioButton
+                android:id="@+id/weekend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/radioGrouphari"
+                android:layout_alignStart="@+id/radioGrouphari"
+                android:layout_alignTop="@+id/radioGrouphari"
+                android:layout_alignBottom="@+id/radioGrouphari"
+                android:text="@string/weekend" />
+
+            <RadioButton
+                android:id="@+id/weekday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/radioGrouphari"
+                android:layout_alignStart="@+id/radioGrouphari"
+                android:layout_alignTop="@+id/radioGrouphari"
+                android:checked="true"
+                android:text="@string/weekday" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/txt_nik"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/button_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="287dp"
+            android:text="@string/submit" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupketerangan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="47dp"
+            android:layout_marginTop="45dp">
+
+            <RadioButton
+                android:id="@+id/tidak"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/radioGroupketerangan"
+                android:layout_alignBottom="@+id/radioGroupketerangan"
+                android:layout_toEndOf="@+id/radioGroupketerangan"
+                android:text="@string/tidak" />
+
+            <RadioButton
+                android:id="@+id/piket"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/radioGroupketerangan"
+                android:layout_alignEnd="@+id/radioGroupketerangan"
+                android:layout_alignBottom="@+id/radioGroupketerangan"
+                android:checked="true"
+                android:text="@string/piket"
+                android:textColorLink="@color/navigationBarColor" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/txt_keterangan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="17dp"
+            android:layout_marginEnd="165dp" />
+
+        <TextView
+            android:id="@+id/txt_status_hari"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="145dp"
+            android:layout_marginEnd="100dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

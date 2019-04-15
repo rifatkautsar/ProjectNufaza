@@ -1,0 +1,58 @@
+<resources>
+
+    <style name="MyMaterialTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowAllowEnterTransitionOverlap">true</item>
+        <item name="android:windowAllowReturnTransitionOverlap">true</item>
+        <item name="android:windowSharedElementEnterTransition">@android:transition/move</item>
+        <item name="android:windowSharedElementExitTransition">@android:transition/move</item>
+        <item name="android:navigationBarColor">@color/windowBackground</item>
+        <item name="android:colorBackground">@color/primary_material_dark_1</item>
+    </style>
+
+    <style name="nufazatheme" parent="Base.AppTheme">
+        <item name="android:colorBackground">@color/background_material_dark</item>
+        <item name="android:navigationBarColor">@color/colorAccent</item>
+        <item name="android:textColorPrimaryInverse">@color/colorAccent</item>
+        <item name="android:textColorSecondaryInverse">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/colorAccent</item>
+        <item name="android:textColorSecondary">@color/colorAccent</item>
+        <item name="android:colorForeground">@color/textColorPrimary</item>
+        <item name="colorPrimary">@color/colorAccent</item>
+        <item name="android:statusBarColor">@color/colorAccent</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="nufazafixtheme" parent="android:Theme.Material.Light.NoActionBar" >
+        <item name="android:colorBackground">@color/windowBackground</item>
+        <item name="android:colorAccent">@color/accent_material_light</item>
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+        <item name="android:colorPrimary">@color/primary_material_dark_1</item>
+        <item name="android:statusBarColor">@color/colorAccent</item>
+        <item name="android:textColorPrimaryInverse">@color/primary_material_dark_1</item>
+        <item name="android:textColorSecondaryInverse">@android:color/holo_blue_light</item>
+        <item name="android:colorPrimaryDark">@color/primary_dark_material_light</item>
+        <item name="android:windowBackground">@color/windowBackground</item>
+    </style>
+
+    <style name="themekun" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:navigationBarColor">@color/colorAccent</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorBackground">@color/primary_material_dark_1</item>
+        <item name="android:colorForeground">@color/colorPrimary</item>
+    </style>
+
+    <style name="themefix" parent="android:Theme.Material.Light.NoActionBar" >
+        <item name="android:colorBackground">@color/background_material_light_1</item>
+        <item name="android:colorPrimary">@color/primary_material_light</item>
+    </style>
+
+    <style name="themee" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/primary_material_dark_1</item>
+        <item name="android:colorBackground">@color/background_material_dark</item>
+        <item name="android:navigationBarColor">@color/primary_material_dark_1</item>
+        <item name="android:statusBarColor">@color/primary_material_dark_1</item>
+    </style>
+
+</resources>
